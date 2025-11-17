@@ -136,7 +136,7 @@ Theta* is an any-angle path planning algorithm that builds upon A* but allows pa
 # Path Planning Algorithms Performance Comparison
 
 ### A* Algorithm Performance
-![A* Algorithm](a_star_demo.gif)
+![A* Algorithm](Task_3A/img/a_star_demo.gif)
 
 *Computational time* → ≈15s
 
@@ -145,7 +145,7 @@ Theta* is an any-angle path planning algorithm that builds upon A* but allows pa
 *Description: A* demonstrated solid performance, serving as a reliable baseline algorithm. It successfully found the shortest and valid path while avoiding all obstacles. However, it operated at medium speed - slower than D* due to its forward search approach and expanding unecessary nodes. Thanks to its admissible heuristic and proper cost accumulation in the g-cost, it considers terrain costs while guaranteeing the optimal path, finding the most economical solution*
 
 ### D* Algorithm Performance  
-![D* Algorithm](d_star_demo.gif)
+![D* Algorithm](Task_3A/img/d_star_demo.gif)
 
 *Computational Time* → ≈5s
 
@@ -154,7 +154,7 @@ Theta* is an any-angle path planning algorithm that builds upon A* but allows pa
 *Description: D* demonstrated competitive performance in the path planning task. It successfully found the shortest and valid path while avoiding all obstacles and showing exceptional speed in the environments. This is because it uses a reverse search approach from goal to start and employs dynamic cost propagation which allows it to expand fewer nodes than A*. Because of its incremental search and cost-updating mechanism, it intelligently considers terrain costs while guaranteeing optimal paths, finding the most economical solution with minimal computational overhead. It's an extension of the A* search algorithm, so its ability to cache cost information and prioritize nodes based on key modifiers enables faster convergence than traditional graph search methods.
 
 ### Theta* Algorithm Performance
-![Theta* Algorithm](theta_star_demo.gif)
+![Theta* Algorithm](Task_3A/img/theta_star_demo.gif)
 
 *Computational Time* → ≈2s
 
@@ -166,12 +166,12 @@ Theta* is an any-angle path planning algorithm that builds upon A* but allows pa
 
 ## D* and A* path
 
-![d_star_demo.png](d_star_demo.png)
+![d_star_demo.png](Task_3A/img/d_star_demo.png)
 * The diagonal movement of D* and A* are restricted to a single grid 
 
 ## Theta* path
 
-![theta_star_demo.png](theta_star_demo.png)
+![theta_star_demo.png](Task_3A/img/theta_star_demo.png)
 * Theta* can perfom diagonal motion without limiting to grids, moving in any direction.
 
 

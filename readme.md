@@ -6,6 +6,11 @@
 
 
 # TASK 1:
+
+## Overview
+
+This project presents a comprehensive analysis of various aircraft options in three distinct scenarios characterized by different passenger demands, fuel costs, time costs, and maximum flight counts. The objective is to identify the **optimal aircraft type** for each scenario based on cost and performance metrics.
+
 ## Table of Contents
 
 - [Background](#background)
@@ -25,6 +30,11 @@
 ![GIF_20251117231010454](https://github.com/user-attachments/assets/9325f827-4607-400d-810d-2139fcb938e4)
 
 ## Shortest time required: 76.15432893255064
+
+## Cost Calculation Equation
+
+<img width="412" height="100" alt="Screenshot 2025-11-17 at 23 18 59" src="https://github.com/user-attachments/assets/a9fa18d5-9272-415c-809d-896bd8dc2b69" />
+
 
 ## Scenarios
 

@@ -2,6 +2,7 @@
 ### Group Member
 Phrolova, Nathan, David, Bob, Steven, Mathew
 
+
 TASK 2: Path Planning with Multiple Cost Zones
 
 Objective:
@@ -36,6 +37,7 @@ Final Route Time: 74.46793283 units
 The path successfully avoids high-cost regions while optimizing for both time and fuel
 
 The algorithm efficiently navigates through multiple cost-intensive areas
+
 
 TASK 2A: Restricted Movement Model
 

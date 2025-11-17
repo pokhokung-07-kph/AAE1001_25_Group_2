@@ -16,8 +16,8 @@
 
 ## Background
 
-- **Start node:** E60, 25
-- **Goal node:** 30, 20
+- **Start node:** 0, 10
+- **Goal node:** 60, 25
 - **Key areas:** Fuel-consuming, Time-consuming
 <img width="862" height="483" alt="Screenshot 2025-11-17 at 18 02 54" src="https://github.com/user-attachments/assets/a9e7a61f-9424-4dcc-a985-57b4fc95eab1" />
 

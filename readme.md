@@ -166,12 +166,12 @@ Theta* is an any-angle path planning algorithm that builds upon A* but allows pa
 
 ## D* and A* path
 
-![d_star_demo.png](Task_3A/img/d_star_demo.png)
+![d_star_demo.png](Task_3A/img/A&D.png)
 * The diagonal movement of D* and A* are restricted to a single grid 
 
 ## Theta* path
 
-![theta_star_demo.png](Task_3A/img/theta_star_demo.png)
+![theta_star_demo.png](Task_3A/img/thetaandstar_demo.png)
 * Theta* can perfom diagonal motion without limiting to grids, moving in any direction.
 
 

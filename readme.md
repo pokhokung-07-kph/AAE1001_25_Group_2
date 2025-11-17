@@ -21,6 +21,11 @@
 - **Key areas:** Fuel-consuming, Time-consuming
 <img width="862" height="483" alt="Screenshot 2025-11-17 at 18 02 54" src="https://github.com/user-attachments/assets/a9e7a61f-9424-4dcc-a985-57b4fc95eab1" />
 
+## The shortest path
+![GIF_20251117231010454](https://github.com/user-attachments/assets/9325f827-4607-400d-810d-2139fcb938e4)
+
+## Shortest time required: 76.15432893255064
+
 ## Scenarios
 
 ### Scenario 1: 

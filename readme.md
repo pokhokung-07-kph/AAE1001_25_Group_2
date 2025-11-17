@@ -1,9 +1,15 @@
 # AAE1001_25_Group_2
-### Group Member
-Phrolova, Nathan, David, Bob, Steven, Mathew
+### Group Member:
+
+*Phrolova, Nathan, David, Bob, Steven, Matthew
 
 
-TASK 2: Path Planning with Multiple Cost Zones
+<p align="center">
+
+  <h1 align="center"> TASK 2: 
+<p align="center">
+
+  <h3 align="center"> Path Planning with Multiple Cost Zones
 
 Objective:
 To implement an A* path planning algorithm that accounts for multiple types of cost-intensive areas:

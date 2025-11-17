@@ -4,6 +4,79 @@
 *Phrolova, Nathan, David, Bob, Steven, Matthew
 
 
+
+# Task 1
+## Table of Contents
+
+- [Background](#background)
+- [Scenarios](#scenarios)
+  - [Scenario 1: Medium Passengers](#scenario-1-medium-passengers)
+  - [Scenario 2: High Passengers](#scenario-2-high-passengers)
+  - [Scenario 3: Low Passengers](#scenario-3-low-passengers)
+
+## Background
+
+- **Start node:** E60, 25
+- **Goal node:** 30, 20
+- **Key areas:** Fuel-consuming, Time-consuming
+<img width="862" height="483" alt="Screenshot 2025-11-17 at 18 02 54" src="https://github.com/user-attachments/assets/a9e7a61f-9424-4dcc-a985-57b4fc95eab1" />
+
+## Scenarios
+
+### Scenario 1: 
+
+- **Fuel Cost:** 0.85
+- **Time Cost:** Medium
+- **Number of Passengers:** 330
+- **Maximum Flight:** 13
+
+**Aircraft Costs:**
+| Aircraft Type | Demand per Flight | Total Cost  |
+|---------------|------------------|-------------|
+| A330-900neo          | 11               | 99,403.26   |
+| A350-900         | 10               | 103,819.73  |
+
+A321neo do not meet the requirement in this situation.
+
+**Optimal Aircraft:** **A330-900neo**  
+**Cost:** 99,403.26
+
+### Scenario 2: 
+
+- **Fuel Cost:** 0.96
+- **Time Cost:** High
+- **Number of Passengers:** 1500
+- **Maximum Flight:** 7
+
+**Aircraft Costs:**
+| Aircraft Type | Demand per Flight | Total Cost  |
+|---------------|------------------|-------------|
+| A330-900neo          | 5                | 50,986.26   |
+| A350-900          | 5                | 58,344.91   |
+
+A321neo do not meet the requirement in this situation.
+
+**Optimal Aircraft:** **A330-900neo**  
+**Cost:** 50,986.26
+
+### Scenario 3: 
+
+- **Fuel Cost:** 0.78
+- **Time Cost:** Low
+- **Number of Passengers:** 2250
+- **Maximum Flight:** 25
+
+**Aircraft Costs:**
+| Aircraft Type | Demand per Flight | Total Cost  |
+|---------------|------------------|-------------|
+| A321neo          | 12               | 69,229.96   |
+| A330-900neo          | 8                | 65,055.57   |
+| A350-900          | 7                | 65,583.84   |
+
+**Optimal Aircraft:** **A330-900neo**  
+**Cost:** 65,055.57
+
+
 <p align="center">
 
   <h1 align="center"> TASK 2: 

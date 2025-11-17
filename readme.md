@@ -9,9 +9,9 @@
   <h1 align="center"> TASK 2: 
 <p align="center">
 
-  <h3 align="center"> Path Planning with Multiple Cost Zones
+  <h3 align="center"> Path Planning with Multiple Cost Zones </h3>
 
-Objective:
+## Objective:
 To implement an A* path planning algorithm that accounts for multiple types of cost-intensive areas:
 
 Fuel-consuming areas (yellow)

@@ -170,6 +170,15 @@ Maintained efficient path planning while adhering to movement constraints
 
   <h3 align="center">  Path Planning With Checkpoints 
 
+  ## Table of Contents
+
+- Task Goal
+- Code Changes
+- Map
+- Resullts
+  - Trip Time
+  - Path Taken
+
 
 ## Task Goal ##
 

@@ -163,9 +163,56 @@ Useful for scenarios where diagonal movement is impractical or unsafe
 Maintained efficient path planning while adhering to movement constraints
 
 
+<p align="center">
+
+  <h1 align="center"> Task A1
+<p align="center">
+
+  <h3 align="center">  Path Planning With Checkpoints 
 
 
+## Task Goal ##
 
+The main goal of the task is introducing checkpoints to the path planning directory. 
+
+
+## Code Changes ### 
+- Introducing the definition of checkpoints
+  
+- Setting up the path directory
+
+  A new method planning_with_checkpoints is introduced. It breaks the problem into segments: start → checkpoint1 → checkpoint2 → ... → goal
+  
+- Selecting checkpoint values
+
+Checkpoints are placed within cost-intensive areas: (15.0, 30.0) in Area 1 and (40.0, 20.0) in Area 2.
+
+- Changing checkpoint appearence for improved clarity
+
+Appearance of checkpoints is changed to stars 
+   
+## Map ## 
+
+The map for the task retains the same features as the original 
+
+<img width="751" height="551" alt="{D8E7FD49-0B57-4A81-9EE4-1B2C8A9B5133}" src="https://github.com/user-attachments/assets/d18adef7-23bc-48e8-ae99-a414db32469c" />
+
+## Result## 
+
+**Trip Time**
+The Total trip time is broken down into three segments due to the presence of checkpoints
+
+Total Trip time required ->  27.910259710444144
+
+Total Trip time required ->  41.35634918610404
+
+Total Trip time required ->  26.07106781186548
+
+Total Trip Time: 95.3376767
+
+**Path Taken**
+
+<img width="761" height="555" alt="{59995E9C-10AB-419C-9162-AC22E1B906AB}" src="https://github.com/user-attachments/assets/0dd43912-c4ca-4072-a0cd-5831690a4037" />
 
 
 <p align="center">
@@ -282,3 +329,8 @@ Completing Task 1 and Task 3 has greatly enhanced my technical capabilities and 
 Task 3 built upon this foundation, focusing on selecting the most practical aircraft design, with particular attention paid to fuel cost calculations tailored to the Asia region. When determining weekly operational costs, I applied the relevant local jet fuel price ($834.89/metric ton for Asia & Oceania) to each aircraft’s fuel consumption and flight count. Here, I leveraged AI tools not only for calculation but especially for verifying the accuracy of my results. AI validation features helped ensure that my computations were reliable, highlighting inconsistencies and allowing for rapid correction before finalizing the analysis.
 
 Overall, using AI throughout both tasks significantly streamlined my workflow, increased my confidence in the accuracy of my work, and demonstrated the practical benefits of integrating advanced technologies in quantitative engineering challenges.
+
+### David 
+
+Having contributed to task 2 and completed additional task 1, I can clearly certify that the project has significantly improved my understanding and the ability of using VisualStudio's implemented digital artitifical inteligence that has assisted in various scenarios in order to make the overall progress in meeting certain scenarios smoother. Additionally, through the completion of those tasks I was able to substantially increase my knowledge of using 
+

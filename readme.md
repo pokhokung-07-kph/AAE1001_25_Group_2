@@ -173,31 +173,30 @@ Maintained efficient path planning while adhering to movement constraints
 
 ## Task Goal ##
 
-The main goal of the task is introducing checkpoints to the path planning directory. 
+Current code merely aims to find the most optimal path from the start-node to the end-node. The main goal of the task is introducing checkpoints to the path planning directory. This task has many pactical implementaitions in the real world where certain routes need to be taken regardless of the terrain or cost intensity (e.g., autonomous robots, drones, or vehicles).
 
 
 ## Code Changes ### 
-- Introducing the definition of checkpoints
+- *Introducing the definition of checkpoints*
   
-- Setting up the path directory
+- *Setting up the path directory*
 
   A new method planning_with_checkpoints is introduced. It breaks the problem into segments: start → checkpoint1 → checkpoint2 → ... → goal
   
-- Selecting checkpoint values
+- *Selecting checkpoint values*
 
 Checkpoints are placed within cost-intensive areas: (15.0, 30.0) in Area 1 and (40.0, 20.0) in Area 2.
 
-- Changing checkpoint appearence for improved clarity
+- *Changing checkpoint appearence for improved clarity*
 
 Appearance of checkpoints is changed to stars 
    
 ## Map ## 
 
-The map for the task retains the same features as the original 
+The map for the task retains the same features as the original. Barriers and cost intensive areas remain present.
 
-<img width="751" height="551" alt="{D8E7FD49-0B57-4A81-9EE4-1B2C8A9B5133}" src="https://github.com/user-attachments/assets/d18adef7-23bc-48e8-ae99-a414db32469c" />
 
-## Result## 
+## Result ## 
 
 **Trip Time**
 The Total trip time is broken down into three segments due to the presence of checkpoints
@@ -208,7 +207,7 @@ Total Trip time required ->  41.35634918610404
 
 Total Trip time required ->  26.07106781186548
 
-Total Trip Time: 95.3376767
+*Total Overall trip Time: 95.3376767*
 
 **Path Taken**
 

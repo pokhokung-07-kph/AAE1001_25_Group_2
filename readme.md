@@ -275,4 +275,10 @@ Theta* is an any-angle path planning algorithm that builds upon A* but allows pa
 - **A\***: Reliable baseline for simple path planning
 - **Theta\***: Preferred for time-critical applications where path smoothness reduces travel time
 
+# Individual reflection
+### Phrolova
+Completing Task 1 and Task 3 has greatly enhanced my technical capabilities and revealed the valuable role artificial intelligence can play in engineering analysis. In Task 1, I evaluated multiple aircraft options to meet specific operational scenarios. To handle the extensive data processing and simulations required, I made use of AI-powered tools alongside Python programming. This combination enabled me to automate calculations, efficiently model cost and performance metrics, and visualize outcomes. AI support proved invaluable when troubleshooting errors and implementing changes, allowing me to optimize the selection process with minimal manual intervention.
 
+Task 3 built upon this foundation, focusing on selecting the most practical aircraft design, with particular attention paid to fuel cost calculations tailored to the Asia region. When determining weekly operational costs, I applied the relevant local jet fuel price ($834.89/metric ton for Asia & Oceania) to each aircraft’s fuel consumption and flight count. Here, I leveraged AI tools not only for calculation but especially for verifying the accuracy of my results. AI validation features helped ensure that my computations were reliable, highlighting inconsistencies and allowing for rapid correction before finalizing the analysis.
+
+Overall, using AI throughout both tasks significantly streamlined my workflow, increased my confidence in the accuracy of my work, and demonstrated the practical benefits of integrating advanced technologies in quantitative engineering challenges.

@@ -190,7 +190,13 @@ Checkpoints are placed within cost-intensive areas: (15.0, 30.0) in Area 1 and (
 - *Changing checkpoint appearence for improved clarity*
 
 Appearance of checkpoints is changed to stars 
+
+
+   <img width="28" height="30" alt="{B0C6258B-D70E-4A0A-8EC8-2CA2E9C3E208}" src="https://github.com/user-attachments/assets/dac4b90a-a178-440e-9ae5-7d95fd3b8ad0" />
+
    
+<img width="946" height="57" alt="{5C934B4D-7FE0-422A-8386-0FA584EE43ED}" src="https://github.com/user-attachments/assets/fcaf79b4-dc80-4fec-808d-21c959d047bc" />
+
 ## Map ## 
 
 The map for the task retains the same features as the original. Barriers and cost intensive areas remain present.
@@ -207,9 +213,9 @@ Total Trip time required ->  41.35634918610404
 
 Total Trip time required ->  26.07106781186548
 
-*Total Overall trip Time: 95.3376767*
+**Total Overall trip Time: 95.3376767**
 
-**Path Taken**
+## Path Taken ##
 
 <img width="761" height="555" alt="{59995E9C-10AB-419C-9162-AC22E1B906AB}" src="https://github.com/user-attachments/assets/0dd43912-c4ca-4072-a0cd-5831690a4037" />
 

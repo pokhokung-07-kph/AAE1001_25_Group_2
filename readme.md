@@ -337,7 +337,6 @@ Theta* is an any-angle path planning algorithm that builds upon A* but allows pa
   
 *Codes below shows Line-of-Sight Optimization of Theta*.
 ```
-# Theta* specific relaxation:
 use_parent = False
 if current.parent_index != -1:
     parent = closed_set.get(current.parent_index, None)

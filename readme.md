@@ -324,9 +324,28 @@ Theta* is an any-angle path planning algorithm that builds upon A* but allows pa
 ![d_star_demo.png](Task_3A/img/A&D.png)
 * The diagonal movement of D* and A* are restricted to a single grid
  
-*Codes below shows Backward calculation from goal of D*.
+*Codes below shows Backward path planning with two-value caluculation from goal of D*.
 ```
-    self.goal.rhs = 0                                         # Goal has zero cost-to-go
+                                                               # D* has two value 
+    self.g = float('inf')                                      # Actual cost from start
+        self.rhs = float('inf')                                # One-step lookahead value
+
+if k_old < self.calc_key(u):                                   # when g=rhs → no movement
+    # Key changed - reinsert with updated key
+    heapq.heappush(self.U, (self.calc_key(u), u))
+elif u.g > u.rhs:                                              # when g≠rhs → expand nodes
+    # Overconsistent state - update and propagate
+    u.g = u.rhs
+    for neighbor in self.get_neighbors(u):
+        self.update_vertex(neighbor)
+else:                                                          # when g≠rhs → expand nodes
+    # Underconsistent state - reset and propagate
+    u.g = float('inf')
+    self.update_vertex(u)
+    for neighbor in self.get_neighbors(u):
+        self.update_vertex(neighbor)
+
+    self.goal.rhs = 0                                          # Goal has zero cost-to-go
     heapq.heappush(self.U, (self.calc_key(self.goal), self.goal))
 ```
 

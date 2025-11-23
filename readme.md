@@ -322,12 +322,33 @@ Theta* is an any-angle path planning algorithm that builds upon A* but allows pa
 ## D* and A* path
 
 ![d_star_demo.png](Task_3A/img/A&D.png)
-* The diagonal movement of D* and A* are restricted to a single grid 
+* The diagonal movement of D* and A* are restricted to a single grid
+ 
+*Codes below shows Backward calculation from goal of D*.
+```
+    self.goal.rhs = 0                                         # Goal has zero cost-to-go
+    heapq.heappush(self.U, (self.calc_key(self.goal), self.goal))
+```
 
 ## Theta* path
 
 ![theta_star_demo.png](Task_3A/img/thetaandstar_demo.png)
 * Theta* can perfom diagonal motion and skipping intermidiate grids if it find a line.
+  
+*Codes below shows Line-of-Sight Optimization of Theta*.
+```
+# Theta* specific relaxation:
+use_parent = False
+if current.parent_index != -1:
+    parent = closed_set.get(current.parent_index, None)
+    if parent is not None:
+        if self.line_of_sight(parent, node):                 # If can connect directly to grandparent!
+            parent_pos_cost = parent.cost + math.hypot(...)  # Calculate direct cost
+            if parent_pos_cost < node.cost:                  # If direct path is cheaper
+                node.cost = parent_pos_cost
+                node.parent_index = self.calc_grid_index(parent)  # Skip current node
+                use_parent = True
+```
 
 
 # Recommendations

@@ -172,15 +172,29 @@ Maintained efficient path planning while adhering to movement constraints
 
   ## Introduction to the Task
 
-- Objective: Design a New Aircraft to Best Fit Scenario 1 in Task 1
-- Recap of Scenario 1 in Task 1:
-  - 3300 Passengers need to travel within this week from the start to the destination, and
-  - A maximum of 13 flights per week
+  - Objective: Design a New Aircraft to Best Fit Scenario 1 in Task 1
+  - Recap of Scenario 1 in Task 1:
+    - 3300 Passengers need to travel within this week from the start to the destination, and
+    - A maximum of 13 flights per week
+
+  ## Rules and Restrictions for the task
+  - Only the cruise time of the flight is to be considered
+  - For each 50 passenger (min 100 to max 450), time cost is increased by 2 $/min (Base time cost = 12 $/min)
+  - The base design is a twin-engine aircraft, if capacity is greater than or equal to 300, it must be switched to a 4-engine aircraft
+  - Fixed costs independent of time are $2000 and $2500 for twin engine and 4-engine model respectively
+  - Each engine consumes fuel at 20kg/min
+  - Trip cost equation:
+    <img width="865" height="252" alt="image" src="https://github.com/user-attachments/assets/6e87b257-3858-4253-9adf-d4f52bdcf258" />
+
+
 
  ## Calculation
+  Note that an aircraft model with passenger capacity less than 254 is impossible the fufill the task due to the maximum flight per week restriction of 13.
   <img width="1161" height="113" alt="image" src="https://github.com/user-attachments/assets/0f6ffb92-52c7-47fe-ad24-b60f368fc33c" />
-  * Note: Fuel price is calculated based on the price in Asia & Oceania on 4 February, 2022, which is $834.89 per million tone.
   After calculations, it is found that the weekly cost for the model AAE275 is the lowest, with just $70,967.97.
+  
+  * Note: Fuel price is calculated based on the price in Asia & Oceania on 4 February, 2022, which is $834.89 per million tone.
+  
 
  ## Final Design
   - Name of the aircraft model: AAE275
@@ -403,6 +417,11 @@ Overall, using AI throughout both tasks significantly streamlined my workflow, i
 ### David 
 
 Having contributed to task 2 and completed additional task 1, I can certify that the project has significantly improved my understanding and the ability of using VisualStudio's implemented digital artitifical inteligence that has assisted in various scenarios in order to make the overall progress smoother. These tasks required me to creatively use the existing A star algorithm in order to handle more complex operations and allowed for fast adaptation to Visual Studio coding environment. Thus, through the completion of those tasks I was able to substantially increase my knowledge of using VisualStudio to code. In Task 2, for instance, I assisted my groupmate in recognizing a flaw because of which the path was not recognizing the jetstreamn as an optimal route due to an inaccurate value placed in the code. By going through the code I was able to recognize the issue, leading to a successful run. Additionally, task A1 presented a challenge that allowed me to utilize the skills learnt from previous tasks and allowed me to tackle the issue with solid reasoning and logic behind the code I added and tested. Using the assistance provided by the artificial intelligence I was introduced to the command "planning_with_checkpoints", which was the key to solving the issue of tracing checkpoints before unltimately arriving at the end-node. Throughout both tasks, I relied heavily on both the significant amount of knowledge recieved from the project and the AI-powered assistance, not only for code generation but also for debugging and deepening my understanding of the solutions. The tasks along with the integrated AI transformed my perspective on path plannining and illustrated how flexible algorithms like the A* can be. By learning that flexibility I was able to implement elements of aviation enginnering into the issues and look for solutions using relatively short lines of code. 
+
+### Nathan
+
+In this project, I used the VS Code Studio for the first time. Through the modification of the sample code, a best path from the starting node to the ending one is calculted with the Python program. 
+My major responsibility in this project is task 3, where I had to design an aircraft model that best fits the scenario 1 in the first task. After taken account into different factors, such as the passenger capacity with the corresponding requirement of the number of engines, and the costs of them. With the aid of generative AI, the calculation is facillated. With the crosschecking between the calculations of my groupmates and mine, we figured out some issues, such as the deviations that turn out to be caused by the fuel price calculation with different units, like a misunderstanding of how much a 'barrel' is for fuel. The problem is then solved after we switched the unit from price per barrel to price per million tonne. The final statistics is given after we have reached a consistent result.
 
 ### Matthew
 

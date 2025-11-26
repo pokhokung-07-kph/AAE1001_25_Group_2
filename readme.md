@@ -1,11 +1,12 @@
 # AAE1001_25_Group_2
 ### Group Member:
-https://www.canva.com/design/DAG4SQUTFUQ/bweZ6jeXzNaQOIhmB8y_sg/edit?utm_content=DAG4SQUTFUQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-*Phrolova, Nathan, David, Bob, Steven, Matthew
+* Phrolova, Nathan, David, Bob, Steven, Matthew
 
+<p align="center">
 
+  <h1 align="center"> TASK 1: 
+<p align="center">
 
-# TASK 1:
 
 ## Overview
 
@@ -161,6 +162,32 @@ The final path is more constrained but remains optimal under movement restrictio
 Useful for scenarios where diagonal movement is impractical or unsafe
 
 Maintained efficient path planning while adhering to movement constraints
+
+<p align="center">
+
+  <h1 align="center"> TASK 3: 
+<p align="center">
+
+  <h3 align="center"> New Aircraft Designing </h3>
+
+  ## Introduction to the Task
+
+- Objective: Design a New Aircraft to Best Fit Scenario 1 in Task 1
+- Recap of Scenario 1 in Task 1:
+  - 3300 Passengers need to travel within this week from the start to the destination, and
+  - A maximum of 13 flights per week
+
+ ## Calculation
+  <img width="1161" height="113" alt="image" src="https://github.com/user-attachments/assets/0f6ffb92-52c7-47fe-ad24-b60f368fc33c" />
+  * Note: Fuel price is calculated based on the price in Asia & Oceania on 4 February, 2022, which is $834.89 per million tone.
+  After calculations, it is found that the weekly cost for the model AAE275 is the lowest, with just $70,967.97.
+
+ ## Final Design
+  - Name of the aircraft model: AAE275
+  - Passenger capacity: 275
+  - Number of engines: 2
+  - Number of flights per week: 12
+  - Weekly cost: $70967.97
 
 
 <p align="center">
